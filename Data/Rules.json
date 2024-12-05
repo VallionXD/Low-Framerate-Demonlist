@@ -1,0 +1,26 @@
+{
+    "1": {
+        "Title": "Video Proof",
+        "Description": "Your completion requires video proof, no exceptions. If this rule is violated your submission will be declined."
+    },
+    "2": {
+        "Title": "Only YouTube or Medal",
+        "Description": "We will only accept YouTube or Medal links as proof. The video must contain the entire level, start to finish."
+    },
+    "3": {
+        "Title": "Cheat Indicator",
+        "Description": "You must have cheat indicator on at all times during the record video. If there is no cheat indicator, the submission will be declined."
+    },
+    "4": {
+        "Title": "Custom Ingame-Resources",
+        "Description": "If your resource pack modifies the look of any objects or textures (blocks, spikes, etc.) related to the level itself, your submission will be declined."
+    },
+    "5": {
+        "Title": "Blacklisted Modifications",
+        "Description": "All types of botting/macro mods (yBot, zBot, etc.) as well as replay features of mod menus are blacklisted."
+    },
+    "6": {
+        "Title": "Pirated Game Copies",
+        "Description": "Pirated versions of Geometry Dash of any kind, from any source, will get your submission declined."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Levels": {
+        "1": {
+            "Title": "The Nightmare",
+            "Creator": "Jax",
+            "LevelID": "13519",
+
+            "Image": "https://i.ytimg.com/vi/VShGsrqr0U4/maxresdefault.jpg",
+            "Video": "https://www.youtube.com/watch?v=VShGsrqr0U4",
+            "ID": "VShGsrqr0U4",
+
+            "Records": {
+                "VallionXD": {
+                    "Progress": "100%",
+                    "Framerate": "14 FPS",
+                    "VideoPlatform": "YouTube",
+                    "VideoURI": "https://www.youtube.com/watch?v=VShGsrqr0U4"
+                }
+            }
+        }
+    }
+}

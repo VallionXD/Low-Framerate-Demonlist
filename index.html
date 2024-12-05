@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Low Framerate Demonlist</title>
+        <script src="https://cdn.tailwindcss.com/3.4.5"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <style class="css">
+            * {
+                font-family: "Lexend", sans-serif; 
+                font-optical-sizing: auto; 
+                scroll-behavior: smooth;
+            }
+
+            .selected {
+                background: #1d1d1f !important;
+            }
+
+            .expand {
+                max-height: 500px !important;
+            }
+        </style>
+    </head> <!--   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(148 163 184 / 0.05)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e"); -->
+    <body class="dark bg-[#131316] flex flex-col items-center justify-center min-h-screen scroll-smooth"> <!-- Added flex-col here -->
+        <div class="dark bg-[#131316] flex flex-col items-center justify-center min-h-screen scroll-smooth transition-all duration-500 opacity-0 unload">
+            <div class="p-4 transition-all duration-500 flex flex-col items-center justify-center">
+                <img
+                    src="./Assets/favicon.png"
+                    alt="Card Image"
+                    class="w-16 h-16 max-w-16 max-h-16 object-contain" 
+                    />
+                <h1 class="text-white text-2xl text-center font-bold pt-2">Low-Framerate Demonlist</h1>
+                <h3 class="text-neutral-400 text-lg text-center">The home of the lowest framerate completions.</h3>
+            </div>
+            
+            <div class="bg-[#151518] min-w-[52.5rem] p-4 border border-[#26272b] rounded-xl justify-center items-center shadow-md mt-6 mb-12 transition-all duration-500">        
+                <ul class="hidden sm:flex text-sm font-regular text-center text-neutral-400 rounded-lg shadow dark:divide-neutral-700 dark:text-neutral-400 mx-auto w-full max-w-[90%] buttongroup">
+                    <li class="w-full">
+                        <a href="#" class="inline-block w-full p-4 bg-[#151518] rounded-s-lg border border-[#26272b] text-white hover:bg-[#1b1b1d] transition-all duration-300 active outline-none list selected">The List</a>
+                    </li>
+                    <li class="w-full">
+                        <a href="#" class="inline-block w-full p-4 bg-[#151518] border border-[#26272b] text-white hover:bg-[#1b1b1d] transition-all duration-300 active outline-none rules">List Rules</a>
+                    </li>
+                    <li class="w-full">
+                        <a href="#" class="inline-block w-full p-4 bg-[#151518] rounded-r-lg border border-[#26272b] text-white hover:bg-[#1b1b1d] transition-all duration-300 active outline-none links">Official Links</a>
+                    </li>
+                </ul>
+
+                <br>
+                <div class="border-b border-[#272727] w-[90%] mb-1 mx-auto"></div>
+                <br>       
+        
+                <div class="flex flex-col items-center bg-transparent overflow-hidden transition-all duration-1000 ease-in-out levels" style="max-height: 2px;">
+                </div>            
+            </div>
+        </div>
+
+        <span class="text-neutral-600 text-center font-bold pb-2">Site by VallionXD, Icon by waffelz.</span>
+
+        <script src="./Scripts/Index.js"></script>
+    </body>
+</html>

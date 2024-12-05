@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>${RecordName} - Low Framerate Demonlist</title>
+        <script src="https://cdn.tailwindcss.com/3.4.5"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: "Lexend", sans-serif; 
+                font-optical-sizing: auto; 
+                scroll-behavior: smooth;
+            }
+
+            .selected {
+                background: #1d1d1f !important;
+            }
+        </style>
+    </head>
+    <body class="bg-[#131316] w-full h-screen p-0 m-0">
+        <div class="w-full h-screen p-0 m-0 transition-all duration-500 unload">
+            <div class="inset-0 z-10 bg-[#131316] w-full h-full flex transition-all duration-500 opacity-0 main">
+                <!-- Left Column (Card) -->
+                <div class="w-1/2 p-6 flex justify-center items-center h-full">
+                    <div class="bg-[#151518] w-full max-w-[50rem] p-4 border border-[#26272b] rounded-xl shadow-md">
+                        <div class="relative w-full rounded-xl overflow-hidden mb-4" style="padding-top: 56.25%;">
+                            <iframe 
+                                src="https://www.youtube.com/embed/${Code}" 
+                                title="YouTube video player" 
+                                class="absolute top-0 left-0 w-full h-full object-cover video" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>                                           
+                        <!-- <img
+                            src="https://i.ytimg.com/vi/f3U99qXzM6M/maxresdefault.jpg"
+                            alt="Card Image"
+                            class="w-full object-cover rounded-xl mb-4"
+                        /> -->
+                        <div class="p-4 pb-0 flex flex-col justify-center">
+                            <h2 class="text-xl font-bold text-white title">${Placement} - ${Title}</h2>
+                            <p class="text-sm text-neutral-400 mt-2 creator">Creator</p>
+                        </div>
+
+                        <br>
+                        <div class="border-b border-[#272727] w-[90%] mb-2 mx-auto"></div>
+                        <br>  
+
+                        <div class="px-4 flex flex-col justify-center">
+                            <p class="text-sm text-neutral-400 mt-2 gdbrowser"><b>View on GDBrowser:</b> ${GDBrowserLink}</p>
+                            <p class="text-sm text-neutral-400 mt-2 levelid"><b>Level ID:</b> ${LevelID}</p>
+                        </div>
+
+                        <div class="p-4 pt-0 flex flex-col justify-center"></div>
+                    </div>
+                </div>
+            
+                <!-- Right Column (List) -->
+                <div class="w-1/2 p-6 flex justify-center items-center h-full">
+                    <div class="bg-[#17171a] w-full max-w-[50rem] border border-[#26272b] rounded-xl shadow-md">
+                        <div class="relative overflow-x-auto rounded-xl">
+                            <table class="w-full text-base text-left text-neutral-400">
+                                <thead class="text-white">
+                                    <tr class="border-b border-[#26272b]">
+                                        <th scope="col" class="px-6 py-5">
+                                            Record Holder
+                                        </th>
+                                        <th scope="col" class="px-6 py-5">
+                                            Progress
+                                        </th>
+                                        <th scope="col" class="px-6 py-5">
+                                            Framerate
+                                        </th>
+                                        <th scope="col" class="px-6 py-5">
+                                            Video Proof
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="records">
+                                    <tr class="bg-[#151518] border-t border-[#26272b]"></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="text-neutral-600 absolute bottom-0 w-full pb-2 transition duration-300 text-center font-bold">Site by VallionXD, Icon by waffelz.</span>
+            </div>
+        </div>
+
+        <script src="./Scripts/Record.js"></script>
+    </body>
+     
+</html>
